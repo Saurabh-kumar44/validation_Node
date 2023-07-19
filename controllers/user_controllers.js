@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const User = require('../models/users');
-////
+//////
 
 module.exports.profile = async function (req, res) {
     if (req.cookies.user_id) {
